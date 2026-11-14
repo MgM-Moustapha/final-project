@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js"></script>
+</head>
+
+<body onload="addTabFocus()">
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <img class="preview" alt="Styling with a Bandana"
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover="upDate(this)"
+        onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="With My Boy" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+        onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt="Young Puppy"
+        onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="An Owl"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmAEADWoyvzGKMj-eYMsgjS-OmCLGz5slpN9tKmX-Hlw&s=10" onmouseover="upDate(this)"
+        onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="In Paris" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_OBdDzWFtGtyrCo7s2zd93nLTmhtf-GUwHW8UJwmCHg&s=10"
+        onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Uon_4CXmOFkOo60SFtjUjvuHzU-T4U7L9_9pc_1JiA&s=10" alt="Lake"
+        onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+
+</html>
